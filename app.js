@@ -3,5 +3,6 @@ document.getElementById("burger-btn").onclick = function () {
 }
 
 function active() {
-    document.getElementById("headerNav__menu").classList.toggle("headerNav__menuActive")
+    document.getElementById("headerNav__menu").classList.toggle("headerNav__menuActive");
+    document.getElementById("btn-inner").classList.toggle("burgerActive");
 }
