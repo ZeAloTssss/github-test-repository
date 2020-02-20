@@ -8,3 +8,17 @@
 body {
     height: 2000px;
 }
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #515151;
+    padding: 10px 25px;
+}
